@@ -1,6 +1,7 @@
 import React from "react";
 
 import { connect} from 'react-redux';
+import { Link } from 'react-router-dom';
 import { auth } from "../../firebase/firebase.utlls";
 import { createStructuredSelector } from "reselect";
 
@@ -40,28 +41,28 @@ class HeaderComponent extends React.Component {
               <div className={overLayBoxClass.join(' ')}></div>
               <nav className="flex flex-jc-sb flex-ai-c change-on-mob">
                 <div className="header-logo flex flex-jc-sb">
-                  <a href="/">
+                  <Link to="/">
                     <Logo className='header-logo-icon'/>
                     <span className="ghost-icon">Spaghetti AirLines</span>
-                  </a>
+                  </Link>
                 </div>
           
                 <div className="header-links hide-for-mobile">
-                  <a href="/">Home</a>
-                  <a href="/">Flights</a>
-                  <a href="/">Car</a>
-                  <a href="/">Hotel</a>
-                  <a href="/">Contact Us</a>
+                  <Link to="/">Home</Link>
+                  <Link to="/">Flights</Link>
+                  <Link to="/">Car</Link>
+                  <Link to="/">Hotel</Link>
+                  <Link to="/">Contact Us</Link>
                 </div>
           
-                <a href={this.props.currentUser ? '/' : '/signin'} className="button button-sign-in">
+                <Link to={this.props.currentUser ? '/' : '/signin'} className="button button-sign-in">
                   {
                     this.props.currentUser ?
                     <span onClick={()=>auth.signOut()}>Sign out</span> :
                     <span>Sign in</span>
                   }{
                   console.log('currentUser',this.props.currentUser)}
-                </a>
+                </Link>
                 
                 <div className="header-menu hide-for-desktop menu-wrapper">
                     <div
@@ -71,11 +72,11 @@ class HeaderComponent extends React.Component {
                 </div>
               </nav>
               <div className={menuListClass.join(' ')}> 
-                  <a href="/">Home</a>
-                  <a href="/">Flights</a>
-                  <a href="/">Car</a>
-                  <a href="/">Hotel</a>
-                  <a href="/">Contact Us</a>
+                  <Link to="/">Home</Link>
+                  <Link to="/">Flights</Link>
+                  <Link to="/">Car</Link>
+                  <Link to="/">Hotel</Link>
+                  <Link to="/">Contact Us</Link>
               </div>
                  
             </div>

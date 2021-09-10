@@ -1,8 +1,8 @@
 import React from "react";
-import OptionsItem from "../options-item/options-item.component";
 
 import "./main-grid.styles.scss";
 import logo from '../../assets/heroimg.jpg';
+import { Link } from "react-router-dom";
 
 const MainGrid = () => (
   <div className="main-grid">
@@ -17,9 +17,9 @@ const MainGrid = () => (
       <div className="hero-text container">
         <h1>Next generation flying</h1>
         <p>Make your flying experience safer and more pleasant with us</p>
-        <a href="/booking" className="button">
+        <Link to="/booking" className="button">
           Purchase tickets
-        </a>
+        </Link>
       </div>
     </div>
     <div className="options container">
@@ -31,13 +31,13 @@ const MainGrid = () => (
           <li>Face coverings required</li>
         </ul>
         <div className="learn-more-link">
-          <a href="#">Learn more &#10095;</a>
+          <Link to="#">Learn more &#10095;</Link>
         </div>
       </div>
       <div className="options-grid container">
         <div className="options-item box">
           <div className="options-title">
-            <a href="/booking">&#9992; BOOK A FLIGHT</a>
+            <Link to="/booking">&#9992; BOOK A FLIGHT</Link>
           </div>
           <div className="options-desc">
             Our modern booking technique will help you
@@ -45,7 +45,7 @@ const MainGrid = () => (
         </div>
         <div className="options-item box">
           <div className="options-title">
-            <a href="/">&#9745; CHECK IN</a>
+            <Link to="/">&#9745; CHECK IN</Link>
           </div>
           <div className="options-desc">
             Our modern checking in technique will help you
@@ -53,7 +53,7 @@ const MainGrid = () => (
         </div>
         <div className="options-item box">
           <div className="options-title">
-            <a href="/booking">&#128348; FLIGHT STATUS</a>
+            <Link to="/booking">&#128348; FLIGHT STATUS</Link>
           </div>
           <div className="options-desc">
             Our modern flight status checking technique will help you
@@ -61,7 +61,7 @@ const MainGrid = () => (
         </div>
         <div className="options-item box">
           <div className="options-title">
-            <a href="/">&#128065; LOOK UP RESERVATIONS</a>
+            <Link to="/">&#128065; LOOK UP RESERVATIONS</Link>
           </div>
           <div className="options-desc">
             Our modern reservation technique will do everything for you
@@ -83,7 +83,7 @@ const MainGrid = () => (
       <div className="options-grid container">
         <div className="options-item box">
           <div className="options-title">
-            <a href="#">Flying SpaghettiAirlines</a>
+            <Link to="/">Flying SpaghettiAirlines</Link>
           </div>
           <div className="options-desc">
             Learn about our boarding process, what's available inflight & more
@@ -91,7 +91,7 @@ const MainGrid = () => (
         </div>
         <div className="options-item box">
           <div className="options-title">
-            <a href="#">Start Earning Points</a>
+            <Link to="/">Start Earning Points</Link>
           </div>
           <div className="options-desc">
             Sign up for a Rapid Rewards account and earn points on your next
@@ -100,7 +100,7 @@ const MainGrid = () => (
         </div>
         <div className="options-item box">
           <div className="options-title">
-            <a href="#">Book a car with us</a>
+            <Link to="/">Book a car with us</Link>
           </div>
           <div className="options-desc">
             Great selection, unbeatable rates & Rapid Rewards
@@ -108,7 +108,7 @@ const MainGrid = () => (
         </div>
         <div className="options-item box">
           <div className="options-title">
-            <a href="#">Special Offers</a>
+            <Link to="/">Special Offers</Link>
           </div>
           <div className="options-desc">
             Vacation Special Offers and Travel Deals

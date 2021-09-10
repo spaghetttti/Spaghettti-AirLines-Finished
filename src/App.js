@@ -13,8 +13,6 @@ import { auth, createUserProfileDocument} from "./firebase/firebase.utlls";
 import { setCurrentUser } from "./redux/user/user.actions";
 import { selectCurrentUser } from "./redux/user/user.selector";
 
-import { selectFlight } from "./redux/flights/flights.selector";
-
 import "./App.css";
 import FooterComponent from "./components/footer/footer.component";
 
