@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Spaghettti-AirLines-Finished/static/css/main.ed5da455.chunk.css",
+    "main.js": "/Spaghettti-AirLines-Finished/static/js/main.83ec394f.chunk.js",
+    "main.js.map": "/Spaghettti-AirLines-Finished/static/js/main.83ec394f.chunk.js.map",
+    "runtime-main.js": "/Spaghettti-AirLines-Finished/static/js/runtime-main.6131bf51.js",
+    "runtime-main.js.map": "/Spaghettti-AirLines-Finished/static/js/runtime-main.6131bf51.js.map",
+    "static/js/2.cda020ca.chunk.js": "/Spaghettti-AirLines-Finished/static/js/2.cda020ca.chunk.js",
+    "static/js/2.cda020ca.chunk.js.map": "/Spaghettti-AirLines-Finished/static/js/2.cda020ca.chunk.js.map",
+    "static/js/3.ccdba150.chunk.js": "/Spaghettti-AirLines-Finished/static/js/3.ccdba150.chunk.js",
+    "static/js/3.ccdba150.chunk.js.map": "/Spaghettti-AirLines-Finished/static/js/3.ccdba150.chunk.js.map",
+    "index.html": "/Spaghettti-AirLines-Finished/index.html",
+    "static/css/main.ed5da455.chunk.css.map": "/Spaghettti-AirLines-Finished/static/css/main.ed5da455.chunk.css.map",
+    "static/js/2.cda020ca.chunk.js.LICENSE.txt": "/Spaghettti-AirLines-Finished/static/js/2.cda020ca.chunk.js.LICENSE.txt",
+    "static/media/booking.6761cf94.jpg": "/Spaghettti-AirLines-Finished/static/media/booking.6761cf94.jpg",
+    "static/media/heroimg.0cf1022e.jpg": "/Spaghettti-AirLines-Finished/static/media/heroimg.0cf1022e.jpg",
+    "static/media/main-logo1.74807fc0.svg": "/Spaghettti-AirLines-Finished/static/media/main-logo1.74807fc0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6131bf51.js",
+    "static/js/2.cda020ca.chunk.js",
+    "static/css/main.ed5da455.chunk.css",
+    "static/js/main.83ec394f.chunk.js"
+  ]
+}
